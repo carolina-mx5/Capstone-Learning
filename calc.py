@@ -1,4 +1,4 @@
-# calculator program
+# calculator program that adds, subctracts, multiplies, and divides
 
 # addition operation
 def add(x, y):
@@ -31,16 +31,16 @@ num2 = float(input("Enter second number: ")) # gets user input for 2nd mum
 
 # prints out the answer based on which math operation was chosen
 if option == '1':
-    print(num1,"+",num2,"=", add(num1, num2))
+    print(num1,"+",num2,"=", add(num1, num2)) #addition
 
 elif option == '2':
-    print(num1,"-",num2,"=", sub(num1, num2))
+    print(num1,"-",num2,"=", sub(num1, num2)) #subtraction
 
 elif option == '3':
-    print(num1,"*",num2,"=", mult(num1, num2))
+    print(num1,"*",num2,"=", mult(num1, num2)) #multiplication
 
 elif option == '4':
-    print(num1,"/",num2,"=", div(num1, num2))
+    print(num1,"/",num2,"=", div(num1, num2)) #division
 
 else:
     print("Whoops! Looks like you typed an invalid option.") # prints error msg if option 1-4 was not chosen
